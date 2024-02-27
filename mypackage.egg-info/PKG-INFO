@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: mypackage
+Version: 0.1
+Summary: EDSA example python package
+Home-page: https://github.com/<username>/<package-name>
+Author: Richard Habada
+Author-email: <habadarichard2016@gmail.com>
+License: MIT
+
+# MyPackage: Select Top N Items from a List
+
+MyPackage is a Python package that provides functionality to select the top n items from a given list.
+
+## Installation
+
+You can install MyPackage using pip:
+
+pip install mypackage
+
+
+## Usage
+
+To use MyPackage, you can import the `top_n` function from the `mypackage` module and then call it with your list and the value of n:
+
+```python
+from mypackage import top_n
+
+my_list = [5, 10, 3, 8, 15, 7]
+top_3 = top_n(my_list, 3)
+print("Top 3 items:", top_3)
+
+This will be the output:
+Top 3 items: [15, 10, 8]
+
+Parameters
+input_list: The list from which you want to select the top N items.
+n: The number of top items to select.
+
+from mypackage import top_n
+
+my_list = [5, 10, 3, 8, 15, 7]
+top_2 = select_top_n(my_list, 2)
+print("Top 2 items:", top_2)
+
+This will be the output:
+Top 2 items: [15, 10]
+
+Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
